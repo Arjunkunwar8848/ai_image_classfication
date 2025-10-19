@@ -1,0 +1,17 @@
+# Core deep learning library
+tensorflow==2.13.0
+
+# Data processing
+numpy>=1.23
+pillow>=9.0
+
+# Visualization
+matplotlib>=3.5
+
+# (Optional but helpful)
+scikit-learn>=1.1
+tqdm>=4.64
+
+
+# these requirement can be installed via 
+pip install -r requirements.txt

@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = load_model('C:/Users/acem/Desktop/BE/VI/Projects/image-classification/notebooks/cnn_model.h5')
+model = load_model(r'C:\Users\arjun\Desktop\ai_image\ai_image_classification\notebooks\cnn_cifar10_model.h5')
 
 # Load and preprocess a new image
 def preprocess_image(image_path):
@@ -13,7 +13,7 @@ def preprocess_image(image_path):
     return img_array
 
 image_path = 'path_to_image.jpg'  # Replace with the path to your image
-img_array = preprocess_image('C:/Users/acem/Desktop/BE/VI/Projects/image-classification/data/truck.jpg')
+img_array = preprocess_image('ai_image_classification/data/truck.jpg')
 
 # Predict the class
 predictions = model.predict(img_array)
